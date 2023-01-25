@@ -1,0 +1,1 @@
+Koristan signal: govor

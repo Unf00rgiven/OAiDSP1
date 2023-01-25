@@ -1,0 +1,6 @@
+3. Red filtra utice na karakteristiku tako sto doprinosi pravilnijem obliku pravouganog signala sto je slucaj kod idealnog filtra.
+
+4a. Frekvencije koje su vise od granice visoko propusnog filtra su ostale, a frekvcencije nize od granice nisu prosle kroz filtar.
+   
+4b. Takodje i za pojasni filtar, koje upadaju u interval su propustene, a one koje nisu u intervalu nisu propustene kroz filtar.
+

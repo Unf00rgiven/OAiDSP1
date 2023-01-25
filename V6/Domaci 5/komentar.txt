@@ -1,0 +1,17 @@
+Zadatak 2:
+
+Filter cetvrtog reda daje pravilniji signal i bolje uklanja sumove tako sto je srednji sum uklonjen skroz
+dok kod filtera drugog reda to nije slucaj.
+Izlaz IIR filtera 4. reda je slican izlazu FIR filtera 32. reda u smislu da oba daju pravilniju sinusoidu,
+i uklanjaju srednji sum.
+IIR filter koristi manje koeficijenata u odnosu na FIR filter, pa samim tim je optimalniji i koristi manje
+memorije.
+
+Zadatak 3:
+
+Kada se ulazni signal propusti kroz all pass filter, ne primecujem da se sum imalo smanjio.
+
+Zadatak 4:
+
+Kada sam upredio IIR filter 4. reda i Nth filter 4. reda dobije se isti izlaz.
+Sum je manji kod Nth filtera 6. reda u odnosu na filter 4. reda.

@@ -1,0 +1,17 @@
+ZADATAK3
+*SK - Stepen kompresije
+** Komentar o kvalitetu dekodovanog signala (subjektivni osećaj na osnovu slušanja)
+
+Datoteka      | quantBL   |  quantBR |   MS   |  SK* |  Komentar*
+-----------------------------------------------------------------------------------------------------------
+stream1.wav   |    16     |    16    |    1   | 1.58 |  Zvuk malo komprimovan uz primetan sum.
+-----------------------------------------------------------------------------------------------------------
+stream1.wav   |    12     |     8    |    1   | 1.65 |  Zvuk u potpunosti unisten sumom.
+-----------------------------------------------------------------------------------------------------------
+stream1.wav   |    11     |     6    |    1   | 2.13 |	Zvuk u potpunosti unisten sumom.
+-----------------------------------------------------------------------------------------------------------
+
+Zajednicki komentar: U razgovoru sa drugim kolegama koji su imali isti problem dosao sam
+	             do mozda netacnog zakljucka, ali sumnjam da je problem u duzinama kanala
+		     kod 12 i 8 quantova i kod 11 i 6 quantova.
+		     Funkcija MS je implementirana u zadatku.

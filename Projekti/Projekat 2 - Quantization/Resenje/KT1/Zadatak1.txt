@@ -1,0 +1,15 @@
+ZADATAK1
+*SK - Stepen kompresije
+** Komentar o kvalitetu dekodovanog signala (subjektivni osećaj na osnovu slušanja)
+
+Datoteka      | quantBL   |  quantBR |   MS   |  SK* |  Komentar*
+-----------------------------------------------------------------------------------------------------------
+stream1.wav   |    16     |    16    |    0   | 1,54 | Skoro identican kao i ulazni signal.
+-----------------------------------------------------------------------------------------------------------
+stream1.wav   |    10     |    10    |    0   | 4,81 | Kvalitet opada, medjutim i dalje verno reprodukuje ulazni signal.
+-----------------------------------------------------------------------------------------------------------
+stream1.wav   |    8      |     8    |    0   | 6,49 | Kvalitet jos vise opao, ali se i dalje prepoznaje signal.
+-----------------------------------------------------------------------------------------------------------
+
+Dodatni komentar: Pri 16 je ocuvan kvalitet zvuka, ali mala kopresija, a kod 8 je velika kompresija, a slabo ocuvan kvalitet
+		  Sto nas dovodi do zlatne sredine od 10.

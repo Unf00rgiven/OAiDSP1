@@ -1,0 +1,32 @@
+Zadatak 1:
+
+Multiton sinus signali frekvencija 24kHz i 48 kHz zadovoljavaju teoremu odabiranja. U oba slucaja maksimalne
+frekvencije signala su manje od polovina svojih signala.
+Kod logaritamskog sweep signala od 16kHz nije zadovoljena teorema odabiranja dok kod ostala dva jeste.
+
+Zadatak 2:
+
+Kada se uveca frekvencija 2, odnosno 3 puta, glas postaje visi, a kada se frekvencija smanjila 3 puta
+tada je glas postao dublji. 
+
+
+Zadatak 4:
+
+Odnos signal-sum za B = 4 je 23.297981, za B = 8 je 49.346500, a za B = 16 je 97.878960.
+Rekonstruisani signal povecavanjem broja bita postaje tacniji,
+dok je sum povecavanjem broja bita ucestaliji sto vidim na sve guscem grafiku.
+
+Zadatak 5:
+
+Kod wrap signala kada se predje iznad, odnosno ispod amplitude (dozvoljene granice), signal se predstavlja
+u komplement 2 predstavi, dok se kod clip signala samo odsece deo signala koji je iznad, odnosno
+ispod dozvoljene granice tj. zaravni se.
+
+Zadatak 6:
+
+U prvom slucaju ne cuje se nikakva razlika izmedju ulaznog i izlaznog signala kao ni izmedju kanala.
+U drugom slucaju izlazni signal je glasniji od ulaznog pri cemu je clip signal cistiji od wrap signala.
+
+Zadatak 7:
+
+Nakon klipovanja jednog kanala zvuk na izlazu je jaci, tj. podseca na zvuk elektricne gitare.

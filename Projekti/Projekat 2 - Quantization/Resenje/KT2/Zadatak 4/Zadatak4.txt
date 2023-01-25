@@ -1,0 +1,13 @@
+ZADATAK4
+*SK - Stepen kompresije
+** Komentar o kvalitetu dekodovanog signala (subjektivni osećaj na osnovu slušanja)
+
+Datoteka      | quantBL   |  quantBR |   MS   |  SK* |  Komentar*
+-----------------------------------------------------------------------------------------------------------
+stream1.wav   |     0     |     0    |    0   | 1.87 |	Poprilicno dobro ocuvan kvalitet zvuka, uz manju kompresiju.
+-----------------------------------------------------------------------------------------------------------
+stream1.wav   |     0     |     8    |    1   | 3.66 |  Poprilicno dobro ocuvan kvalitet zvuka, uz vecu kompresiju.
+-----------------------------------------------------------------------------------------------------------
+
+Dodatni komentar: Program ima dodatnu funkciju koja radi za slucaj kad su quantovi 0, 0.
+		  

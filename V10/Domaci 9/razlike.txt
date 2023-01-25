@@ -1,0 +1,18 @@
+Zadatak1:
+
+Levi kanal: Cuje se glas i sum
+Desni kanal: Cuje se samo sum
+
+Nakon pokretanja za signal SpeachPlusNoise na izlazu se dobije signal sa vecim sumom. Na levom kanalu
+se glas bolje cuje jer je sum manji. Na desnom je sum veci.
+
+Levi kanal: Cuje se i govor i helikopter
+Desni kanal: Cuje se samo helikopter
+
+Nakon pokretanja za signal helicopter na izlazu se dobije signal gde se helikopter nesto jace cuje i kao
+da je dodat manji sum. Na levom kanalu je se bolje cuje glas jer je sum na tom kanalu manji. Na desnom
+je sum veci.
+
+Zadatak2:
+
+Povecavanjem lambda povecava se brzina adaptacije.

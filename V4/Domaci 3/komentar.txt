@@ -1,0 +1,14 @@
+Zadatak 1:
+
+Povecavanjem FFT bloka povecava se spektar odbiraka, pa tako dobijamo tacniji i precizniji grafik.
+Menjanjem prozorske funkcije menja se snaga (amplituda signala), pa tako na primer Rectangular ima
+najvecu snagu, zatim Hamming, zatim Bartlett i Hanning imaju priblizno istu vrednost snage (subjektivni
+osecaj da Hanning ima vecu vrednost snage), dok Blackman ima najmanju vrednost snage (amplituda).
+
+Zadatak 2:
+
+FFT magnitude_response (racunata vrednost) ima mnogo vecu snagu (amplitudu) od Single time
+magnitude_response. Takodje razlika je u tome sto kod FFT najveca amplituda je u 0 po x osi, dok
+kod Single time to nije slucaj. Isto vazi i za druge vrednosti FFT blokova i ulaznih stream-ova.
+
+Iste razlike vaze i u 3. i 4. zadatku.

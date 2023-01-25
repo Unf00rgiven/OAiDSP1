@@ -1,0 +1,12 @@
+ZADATAK2
+*SK - Stepen kompresije
+** Komentar o kvalitetu dekodovanog signala (subjektivni osećaj na osnovu slušanja)
+
+Datoteka      | quantBL   |  quantBR |   MS   |  SK* |  Komentar*
+-----------------------------------------------------------------------------------------------------------
+stream1.wav   |    10     |    10    |    0   | 1.82 |  Signal ocuvan, sa manjom kompresijom.
+-----------------------------------------------------------------------------------------------------------
+stream1.wav   |    8      |     8    |    0   | 2.38 |  Signal kvaliteta malo manjeg od proslog, ali i dalje ocuvan.
+-----------------------------------------------------------------------------------------------------------
+
+Dodatni komentar: Kvalitet bolji kod 10 quantova, medjutim veca kompresija kod 8 quantova.
